@@ -182,4 +182,6 @@ oneway interface IStatusBar
      * Colt
      */
     void toggleCameraFlash();
+    void screenPinningStateChanged(boolean enabled);
+    void leftInLandscapeChanged(boolean isLeft);
 }
