@@ -130,4 +130,5 @@ interface IStatusBarService
     void hideInDisplayFingerprintView();
     void setPartialScreenshot(boolean active);
     void killForegroundApp();
+    void screenPinningStateChanged(boolean enabled);
 }
