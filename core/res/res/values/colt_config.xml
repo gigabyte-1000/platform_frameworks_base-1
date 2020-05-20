@@ -175,4 +175,6 @@
          backgrounds -->
     <bool name="config_useDarkBgNotificationIconTextTinting">false</bool>
 
+	<!-- True if your device have home button and want to use it as wake button-->
+    <bool name="config_enableHomeButtonWake">false</bool>
 </resources>
